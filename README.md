@@ -9,6 +9,9 @@ ___
     .venv\Scripts\activate
 активировать venv
 ___
+    pip install -r requirements.txt
+установить модули
+___
     (venv) ...\folder> deactivate
 для отключения venv, либо закрыть консоль
 ___
