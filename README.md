@@ -1,21 +1,27 @@
-### venv
+## venv
 
+### перейти в нужную папку
     cd ...\folder
-перейти в нужную папку
-___
-    python -m venv folder
-создать venv
-___
+
+### создать папку виртуальной среды .venv
+    python -m venv .venv
+
+### активировать venv
     .venv\Scripts\activate
-активировать venv
-___
+
+### просмотреть пакеты
+    pip list
+
+### установить пакеты
     pip install -r requirements.txt
-установить модули
-___
-    (venv) ...\folder> deactivate
-для отключения venv, либо закрыть консоль
-___
-    folder/
-    └── .venv/
-        └── Scripts/
-            └── python.exe
+
+### выгрузить пакеты
+    pip freeze > file.txt
+
+### для отключения venv, либо закрыть консоль
+    (.venv) ...\folder> deactivate
+
+### путь для добавления интерпретатора
+    .venv/
+    └── Scripts/
+        └── python.exe
